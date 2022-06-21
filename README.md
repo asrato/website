@@ -8,7 +8,7 @@
 
 ## Demo
 
-This application was published and can be accessed [here](https://asrato-github-users.web.app/).
+This application was published and can be accessed [here](https://asrato-website.web.app/).
 
 ## Table of contents
 
