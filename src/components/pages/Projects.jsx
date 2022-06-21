@@ -19,6 +19,13 @@ const Projects = ({  }) => {
             repository: "https://github.com/asrato/neon-clock",
             doubled: true
         },
+        {
+            name: "website",
+            tech: [{ src: "assets/react.svg" }, { src: "assets/css.svg" }],
+            message: "React application source code for my website",
+            repository: "https://github.com/asrato/website",
+            doubled: true
+        },
     ];
 
     return (
