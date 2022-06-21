@@ -29,6 +29,14 @@ const Header = () => {
                         <li>
                             <Link onClick={() => setIsNavExpanded(false)} to="/skills">Skills</Link>
                         </li>
+                        <li className="navigation-socials">
+                            <a className="navigation-social" href="https://github.com/asrato" target={'_blank'}>
+                                <img alt="github" src="../../assets/github.svg" className="navigation-icon" />
+                            </a>
+                            <a className="navigation-social" href="https://www.linkedin.com/in/asrato/" target={'_blank'}>
+                                <img alt="linkedin" src="../../assets/linkedin.svg" className="navigation-icon" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
