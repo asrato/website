@@ -1,0 +1,9 @@
+.page-content {
+    width: 100vw;
+    height: calc(100vh - 76px);
+    background-color: #ffffff;
+    overflow: hidden auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

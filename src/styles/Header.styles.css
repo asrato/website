@@ -1,0 +1,112 @@
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #ffffff;
+  color: black;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.navigation-menu {
+  margin-left: auto;
+}
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  color: #222222;
+  font-weight: bold;
+}
+.navigation-menu li a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3e40bd;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.navigation-menu li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.hamburger {
+  color: #222222;
+  font-size: 28px;
+  background: none;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    width: 100%;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu ul {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 76px);
+    background-color: #ffffff;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-color: #ffffff;
+  }
+  .navigation-menu li:hover a {
+    color: #222222;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+    z-index: 99999;
+  }
+}

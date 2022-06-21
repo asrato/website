@@ -1,0 +1,39 @@
+.career-card {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 30%;
+    min-width: 250px;
+    max-width: 300px;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.career-card-title {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.career-card-description,
+.career-card-dates {
+    font-weight: 500;
+}
+
+.career-card-description {
+    text-align: center;
+    color: #000000;
+}
+
+.career-card-dates {
+    color: #132b97;
+    font-size: 13px;
+}
+
+.career-card-spacer {
+    flex-grow: 1;
+}

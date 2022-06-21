@@ -1,0 +1,23 @@
+.projects {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.projects-title {
+    font-size: 32px;
+    color: #222222;
+}
+.projects-cards {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
