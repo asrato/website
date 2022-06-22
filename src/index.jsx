@@ -6,5 +6,3 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(<App />);
-
-// Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
