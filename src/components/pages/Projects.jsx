@@ -6,6 +6,13 @@ const Projects = ({  }) => {
 
     const projects = [
         {
+            name: "31-game",
+            tech: [{ src: "assets/react.svg" }, { src: "assets/css.svg" }],
+            message: "A simple React game based on Blackjack",
+            repository: "https://github.com/asrato/31-game",
+            doubled: true
+        },
+        {
             name: "github-users",
             tech: [{ src: "assets/react.svg" }, { src: "assets/css.svg" }],
             message: "React application that displays github users information",
